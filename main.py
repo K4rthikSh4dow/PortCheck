@@ -13,7 +13,7 @@ def scan_ports(domain, ports=[22, 80, 443, 137, 139, 445, 3389, 20, 21, 23, 25])
     return open_ports
 
 
-API_TOKEN = '6855321544:AAEoVqfxuPbmfKc2xFdqxhpUg9BnVSrEc50'
+API_TOKEN = 'YOUR_API_TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['scan'])
